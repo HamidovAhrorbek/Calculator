@@ -1,8 +1,6 @@
 def add(number1, number2):
     return number1 + number2
 
-# TODO: Write out the other 3 functions - subtract, multiply and divide.
-
 
 def subtract(number1, number2):
     return number1 - number2
@@ -15,8 +13,6 @@ def multiply(number1, number2):
 def divide(number1, number2):
     return number1 / number2
 
-# TODO: Add these 4 functions into a dictionary as the values. Keys = "+", "-", "*" and "/"
-
 
 operations = {
     "+": add,
@@ -24,10 +20,6 @@ operations = {
     "*": multiply,
     "/": divide,
 }
-
-# TODO: Use the dictionary operations to perform the calculations. Multiply 4 * 8 using the dictionary.
-
-# print(operations["*"](4, 8))
 
 
 def calculator():
